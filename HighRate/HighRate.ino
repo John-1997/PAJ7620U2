@@ -13,7 +13,7 @@ void setup()
     delay(500);
   }
   Serial.println("Fully completed");//This meaning the system is ready to work.
-  paj.setGestureHighRate(false);//set the mode as HighRate
+  paj.setGestureHighRate(true);//set the mode as HighRate
 }
 
 void loop()
